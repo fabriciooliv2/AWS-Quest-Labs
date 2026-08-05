@@ -136,6 +136,9 @@ Gerenciamento de Objetos
 
 Segurança em Buckets
 
+# Atribuições adquiridas
+
+<img width="1490" height="784" alt="Image" src="https://github.com/user-attachments/assets/d2caa2c4-80b8-4d1b-bce4-8b867239e9c2" />
 
 # Resultado
 
@@ -148,3 +151,5 @@ O bucket Amazon S3 foi configurado com sucesso para hospedagem estática de cont
 ✅ Hospedagem estática habilitada
 
 ✅ Desafio final concluído
+
+
