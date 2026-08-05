@@ -1,168 +1,143 @@
-Etapa 1 - Acesso ao Serviço S3
+# Passo a Passo Realizado
+
+## Etapa 1 - Acesso ao Serviço S3
+
 Acesso ao Console AWS
+
 Pesquisa pelo serviço Amazon S3
+
 Abertura do painel do serviço
 
-📷 Evidência:
+<img width="1396" height="677" alt="Image" src="https://github.com/user-attachments/assets/a837ef7f-fbbd-4aeb-9b95-54c788281f34" />
+________________________________________________________________________________________________________________________________________________________
 
-evidencias/passo-03-acessar-s3.png
 
-Etapa 2 - Seleção do Bucket
+## Etapa 2 - Seleção do Bucket
+
 Localização do bucket disponibilizado para o laboratório
+
 Acesso aos objetos armazenados
 
-📷 Evidência:
+<img width="1397" height="680" alt="Image" src="https://github.com/user-attachments/assets/aa72fa58-59a3-4371-911d-ac92a1305aa4" />
+________________________________________________________________________________________________________________________________________________________
 
-evidencias/passo-04-selecionar-bucket.png
-
-Etapa 3 - Revisão dos Arquivos do Site
+## Etapa 3 - Revisão dos Arquivos do Site
 
 Foram identificados os seguintes arquivos:
 
 index.html
+
 text.html
+
 styles.css
+
 main.js
+
 target-file.csv
 
-📷 Evidência:
+<img width="1399" height="683" alt="Image" src="https://github.com/user-attachments/assets/e4bc082a-766c-4312-b24d-d9be0c1d4c07" />
+________________________________________________________________________________________________________________________________________________________
 
-evidencias/passo-05-revisar-arquivos.png
+## Etapa 4 - Renomeação da Página de Erro
 
-Etapa 4 - Renomeação da Página de Erro
+O arquivo foi renomeado para "error.html"
 
-O arquivo:
+<img width="1398" height="677" alt="Image" src="https://github.com/user-attachments/assets/eb6e5aa5-b2f4-4451-9722-313e46842f1e" />
+________________________________________________________________________________________________________________________________________________________
 
-foi renomeado para:
-
-Plain Text
-1
-error.html
-
-📷 Evidência:
-
-evidencias/passo-06-renomear-error-html.png
-
-Etapa 5 - Configuração de Permissões
+## Etapa 5 - Configuração de Permissões
 
 Validação das configurações de acesso público do bucket.
 
 Configuração observada:
 
-Plain Text
-1
-Block All Public Access = OFF
+"Block All Public Access = OFF"
 
-📷 Evidência:
+<img width="1398" height="675" alt="Image" src="https://github.com/user-attachments/assets/0e1c137e-c0fa-4f79-9c33-491dece8a168" />
+________________________________________________________________________________________________________________________________________________________
 
-evidencias/passo-08-validar-permissoes.png
-
-Etapa 6 - Revisão da Política do Bucket
+## Etapa 6 - Revisão da Política do Bucket
 
 Política responsável por permitir acesso público aos objetos do bucket.
 
-Permissão utilizada:
+Permissão utilizada: JSON
 
-JSON
-1
 {
-2
-"Effect": "Allow",
-3
-"Principal": "*",
-4
-"Action": "s3:GetObject"
-5
+
+  "Effect": "Allow",
+  
+  "Principal": "*",
+  
+  "Action": "s3:GetObject"
+  
 }
-6
-``*
 
-📷 Evidência:
+<img width="1398" height="674" alt="Image" src="https://github.com/user-attachments/assets/f9aec9bf-f203-4ba0-a8d9-db5ab324a917" />
+________________________________________________________________________________________________________________________________________________________
 
-evidencias/passo-09-politica-bucket.png
+## Etapa 7 - Configuração da Hospedagem Estática
 
-Etapa 7 - Configuração da Hospedagem Estática
-
-Acesso à seção:
-
-Plain Text
-1
-*roperties > Static Website Hosting*
+Acesso à seção: *Properties > Static Website Hosting*
 
 Configurações aplicadas:
 
-Enable
-Host a Static Website
+"Enable"
 
-📷 Evidência:
+"Host a Static Website"
 
-evidencias/passo-12-hospedagem-estatica.png
+<img width="1393" height="671" alt="Image" src="https://github.com/user-attachments/assets/6989c5da-9673-4c34-9e7f-7d6b7103dca5" />
+________________________________________________________________________________________________________________________________________________________
 
-Etapa 8 - Definição dos Documentos
+## Etapa 8 - Definição dos Documentos
 
-Documento principal:
+Documento principal: "index.html"
 
-Documento de erro:
+Documento de erro: "error.html"
 
-Plain Text
-1
-error.html
+<img width="1393" height="676" alt="Image" src="https://github.com/user-attachments/assets/ab021041-2f0f-47ec-ba09-6d109f52b53e" />
+________________________________________________________________________________________________________________________________________________________
 
-📷 Evidência:
-
-evidencias/passo-13-configurar-site.png
-
-Etapa 9 - Salvamento das Configurações
+## Etapa 9 - Salvamento das Configurações
 
 Aplicação das alterações de hospedagem estática.
 
-📷 Evidência:
+<img width="1399" height="674" alt="Image" src="https://github.com/user-attachments/assets/4ce57f7b-a7f6-4399-8508-0e9306a7710e" />
+________________________________________________________________________________________________________________________________________________________
 
-evidencias/passo-14-salvar-configuracao.png
-
-Etapa 10 - Validação do Endpoint
+## Etapa 10 - Validação do Endpoint
 
 Após a configuração, foi gerado o endpoint público do site:
 
-Plain Text
-1
 http://bucket-name.s3-website*region.amazonaws.com
 
-📷 Evidência:
-
-evidencias/passo-15-endpoint-site.png
-
-Desafio (DIY)
+# Desafio (DIY)
 
 Objetivo adicional proposto pelo laboratório:
 
-Renomear:
-
-Plain Text
-1
-index*html
-
-para
-
-Plain Text
-1
-waves.html*
-
+Renomear o arquivo "index.html" para "waves.html" 
 e validar a alteração através do mecanismo disponibilizado pelo laboratório.
 
-📷 Evidência:
+<img width="1629" height="917" alt="Image" src="https://github.com/user-attachments/assets/9405db72-e0a0-4d6e-ac2a-a33ae753c68e" />
+________________________________________________________________________________________________________________________________________________________
 
-evidencias/passo-16-validacao-final.png
+# Competências Desenvolvidas
 
-Competências Desenvolvidas
 Amazon S3
+
 Static Website Hosting
+
 Bucket Policies
+
 Controle de Acesso
+
 Hospedagem Web Estática
+
 Gerenciamento de Objetos
+
 Segurança em Buckets
-Resultado
+
+
+# Resultado
 
 O bucket Amazon S3 foi configurado com sucesso para hospedagem estática de conteúdo web, permitindo acesso público aos arquivos através de um endpoint web dedicado.
 
