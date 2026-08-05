@@ -24,9 +24,6 @@ Neste laboratório foi realizada a migração de um site para hospedagem estáti
 5. Aplicação da política de bucket
 6. Testes de acesso
 
-## Política Utilizada
+# Atribuições adquiridas
 
-Arquivo disponível em:
-
-```text
-arquivos/bucket-policy.json
+<img width="1490" height="784" alt="Image" src="https://github.com/user-attachments/assets/d2caa2c4-80b8-4d1b-bce4-8b867239e9c2" />
