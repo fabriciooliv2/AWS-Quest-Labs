@@ -61,7 +61,7 @@ Criação do bucket para armazenamento de arquivos.
 
 Envio dos arquivos para o bucket recém-criado.
 
-images/03-upload-s3.png
+<img width="1409" height="738" alt="Image" src="https://github.com/user-attachments/assets/8b847c97-4ba6-4a59-bd07-2bae91694674" />
 
 ---
 
@@ -69,7 +69,7 @@ images/03-upload-s3.png
 
 Criação da máquina virtual responsável por hospedar a aplicação.
 
-images/04-ec2.png
+<img width="1396" height="677" alt="Image" src="https://github.com/user-attachments/assets/12922abe-5a06-41fb-a4ab-2a88b4384b42" />
 
 ---
 
@@ -77,7 +77,7 @@ images/04-ec2.png
 
 Configuração de VPC, Sub-redes e Security Groups.
 
-images/05-network.png
+<img width="1392" height="724" alt="Image" src="https://github.com/user-attachments/assets/58e9d2b1-f7a1-4496-a10c-340146bb5d5c" />
 
 ---
 
@@ -85,7 +85,7 @@ images/05-network.png
 
 Associação do volume Amazon EBS à instância.
 
-![Eges/06-ebs.png
+<img width="1395" height="674" alt="Image" src="https://github.com/user-attachments/assets/e146095f-14e4-47da-931a-907be042ed6c" />
 
 ---
 
@@ -93,7 +93,7 @@ Associação do volume Amazon EBS à instância.
 
 Configuração automática utilizando User Data.
 
-images/07-userdata.png
+<img width="1400" height="719" alt="Image" src="https://github.com/user-attachments/assets/903e7c1d-8c3f-4c79-b67d-6a1ff60bb4e9" />
 
 ---
 
@@ -101,7 +101,7 @@ images/07-userdata.png
 
 Após todas as configurações, a aplicação ficou acessível através do endereço público da instância EC2.
 
-images/08-aplicacao-final.png
+<img width="1478" height="784" alt="Image" src="https://github.com/user-attachments/assets/3b64f7f2-3c9c-48b3-8a63-d0db0bcc0adf" />
 
 ---
 
