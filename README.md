@@ -21,7 +21,7 @@ O objetivo é consolidar conhecimentos em computação em nuvem por meio de labo
 
 # 📚 Laboratórios Realizados
 
-## 1️⃣ Hospedagem de Sites Estáticos no Amazon S3
+## 1️⃣ Fundamentos da computação em nuvem
 
 ### Serviços Utilizados
 - Amazon S3
