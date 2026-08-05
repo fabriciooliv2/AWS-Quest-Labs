@@ -140,6 +140,4 @@ Após todas as configurações, a aplicação ficou acessível através do ender
 
 **Fabricio Silva de Oliveira**
 
-Engenheiro Eletricista | Técnico Eletrônico Instrumentista II
-
 Em jornada de aprendizado e especialização em Cloud Computing ☁️
