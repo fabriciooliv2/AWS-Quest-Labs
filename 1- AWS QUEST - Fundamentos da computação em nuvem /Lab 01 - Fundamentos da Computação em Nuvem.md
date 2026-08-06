@@ -36,7 +36,7 @@ Bucket S3
 └── target-file.csv
 ```
 
-# Passo a Passo Realizado
+# 🚀 Desenvolvimento da Atividade
 
 ## Etapa 1 - Acesso ao Serviço S3
 
