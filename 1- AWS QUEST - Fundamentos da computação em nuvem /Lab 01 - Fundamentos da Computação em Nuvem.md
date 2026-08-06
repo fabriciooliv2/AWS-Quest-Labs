@@ -1,3 +1,41 @@
+# Lab 01 - Fundamentos da Computação em Nuvem
+
+## 📖 Descrição
+
+Neste laboratório foi realizada a migração de um site para hospedagem estática utilizando o Amazon S3.
+
+O objetivo foi compreender os conceitos fundamentais de armazenamento em nuvem, controle de acesso e publicação de conteúdo web utilizando serviços gerenciados da AWS.
+
+---
+
+## 🎯 Objetivos do Laboratório
+
+- Habilitar hospedagem estática em um bucket Amazon S3.
+- Revisar as permissões do bucket.
+- Analisar a política de acesso.
+- Configurar documentos de índice e erro.
+- Validar o endpoint público do site.
+- Concluir o desafio adicional proposto.
+
+---
+
+## 🏗️ Arquitetura Simplificada
+
+```text
+Usuário
+   │
+   ▼
+Amazon S3 Website Endpoint
+   │
+   ▼
+Bucket S3
+├── index.html
+├── error.html
+├── styles.css
+├── main.js
+└── target-file.csv
+```
+
 # Passo a Passo Realizado
 
 ## Etapa 1 - Acesso ao Serviço S3
