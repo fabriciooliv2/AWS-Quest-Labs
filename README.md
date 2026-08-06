@@ -1,8 +1,8 @@
-# ☁️ AWS Quest Learning Journey
+# ☁️ AWS Cloud Quest Learning Journey
 
 ## 📖 Sobre o Projeto
 
-Este repositório reúne as atividades práticas desenvolvidas durante a trilha **AWS Quest**, abrangendo os principais serviços da Amazon Web Services (AWS).
+Este repositório reúne as atividades práticas desenvolvidas durante a trilha **AWS Cloud Quest**, abrangendo os principais serviços da Amazon Web Services (AWS).
 
 O objetivo é consolidar conhecimentos em computação em nuvem por meio de laboratórios práticos envolvendo armazenamento, computação, redes, segurança, bancos de dados, escalabilidade, alta disponibilidade e arquitetura resiliente.
 
