@@ -3,6 +3,7 @@
 ## 📖 Descrição
 
 Neste laboratório do AWS Quest, explorei os principais recursos de computação da AWS utilizando o Amazon EC2. Durante a atividade, foram analisados diferentes tipos de instâncias, métodos de conexão, acesso a metadados e operações de gerenciamento de instâncias, culminando no redimensionamento de uma instância para um tipo mais robusto.
+
 ---
 
 # 🎯 Objetivos do Laboratório
