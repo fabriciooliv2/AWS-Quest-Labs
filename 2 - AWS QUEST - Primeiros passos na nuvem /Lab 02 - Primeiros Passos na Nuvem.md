@@ -39,7 +39,7 @@ Durante a atividade foram explorados serviços de armazenamento, computação, r
 
 ---
 
-# 🚀 Execução do Laboratório
+# 🚀 Desenvolvimento da Atividade
 
 ## 🏁 Etapa 1 - Acesso ao Console AWS
 
